@@ -1,0 +1,5 @@
+To compile use g++ ftserver.cpp -o ftserver
+
+Running server: ./ftserver <portnum>
+
+Client: python ftclient.py <host(127.0.0.1)> <Control Port> <Data Port(Control Port+1) for convenience> <get/list> [filename]
